@@ -1,0 +1,42 @@
+/* subtle bubble tails */
+.bubble-user::after,
+.bubble-bot::after {
+    content: "";
+    position: absolute;
+    bottom: 0.25rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    transform: rotate(45deg);
+}
+
+.bubble-user::after {
+    right: -0.35rem;
+    background: inherit;
+    border-bottom-right-radius: 2px;
+}
+
+.bubble-bot::after {
+    left: -0.35rem;
+    background: inherit;
+    border-bottom-left-radius: 2px;
+}
+
+/* custom scrollbar */
+.chat-scroll::-webkit-scrollbar {
+    width: 10px;
+}
+
+.chat-scroll::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.chat-scroll::-webkit-scrollbar-thumb {
+    background-color: rgba(148, 163, 184, 0.28);
+    border-radius: 999px;
+}
+
+/* Hide content inside collapsed sidebar smoothly */
+.sidebar-collapsed .sidebar-content {
+    opacity: 0;
+    visibility: hidden;
+}
