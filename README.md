@@ -2,6 +2,8 @@
 
 > README untuk project chatbot AI yang menggunakan Laravel 12 (PHP 8) sebagai backend, Tailwind CSS (via CDN) untuk styling, dan vanilla JavaScript untuk frontend. Model AI dihosting lewat Replicate: `ibm-granite/granite-3.3-8b-instruct`.
 
+🔗 **Project URL:** [Demo Project](https://projectibm-production.up.railway.app/)
+
 ---
 
 ## Project title
@@ -175,3 +177,5 @@ php artisan serve
 - Token Replicate tetap disimpan aman di `.env`.
 
 ---
+
+
